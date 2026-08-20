@@ -1,12 +1,10 @@
 import tkinter as tk
-window = tk.Tk()
-
 import lesson
 
+window = tk.Tk()
 window = None
 canvas = None
 bg_image = None
-
 
 def start_screen():
     global window
