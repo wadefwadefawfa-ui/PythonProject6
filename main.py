@@ -1,7 +1,7 @@
 from PIL.ImageChops import screen
 
-import lesson
+import Screenfile
 import sound
 
-screen.screen()
+Screenfile.start_screen()
 sound.play_sound()
